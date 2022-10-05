@@ -15,8 +15,8 @@
   --color-bg-variant: #7e8d85ff;
   --color-primary: #a2e3c4ff;
   --color-primary-variant: rgba(162, 227, 196, 0.4);
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-white: #f0f7f4;
+  --color-light: rgba(240, 247, 244, 0.6);
 
   --transition: all 400ms ease;
 
