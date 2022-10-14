@@ -26,13 +26,13 @@ const about = () => {
 
             <article className="about__card">
               <RiAwardFill className="about__icon" />
-              <h5>Clients</h5>
-              <small></small>
+              <h5>Undergraduates</h5>
+              <small>B.Sc in Software Analysis and Development</small>
             </article>
 
             <article className="about__card">
               <RiAwardFill className="about__icon" />
-              <h5>Experience</h5>
+              <h5>projects</h5>
               <small>1+ Years Working</small>
             </article>
           </div>
