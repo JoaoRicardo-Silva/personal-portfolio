@@ -1,10 +1,45 @@
-import React from 'react'
-import './about.css'
+import React from "react";
+import "./about.css";
+import ME from "../../assets/me-about.jpg";
+import { RiAwardFill } from "react-icons/ri";
+import { ImUsers } from "react-icons/im";
 
 const about = () => {
   return (
-    <div>about</div>
-  )
-}
+    <section id="about">
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
 
-export default about
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-iamge">
+            <img src={ME} alt="Abou Image" />
+          </div>
+        </div>
+        <div className="about__content">
+          <div className="about__cards">
+            <article className="about__card">
+              <RiAwardFill className="about__icon" />
+              <h5>Experience</h5>
+              <small>1+ Years Working</small>
+            </article>
+
+            <article className="about__card">
+              <RiAwardFill className="about__icon" />
+              <h5>Clients</h5>
+              <small></small>
+            </article>
+
+            <article className="about__card">
+              <RiAwardFill className="about__icon" />
+              <h5>Experience</h5>
+              <small>1+ Years Working</small>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default about;
